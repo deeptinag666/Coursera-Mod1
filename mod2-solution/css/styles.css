@@ -1,0 +1,65 @@
+.row{
+	width: 100%;
+}
+
+h1{
+	font-family: Comic Sans MS;
+	text-align: center;
+}
+
+h2{
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 0px;
+	background-color: #990000;
+	font-family: Comic Sans MS;
+	color: #FFFFFF;
+	font-size: 16px;
+	text-align: center;
+	border: 2px solid #000000;
+	width: 50%;
+	float: right;
+}
+
+div > div {
+	border: 2px solid #000000;
+	background-color: #A8A8A8;
+	margin-right: 6px;
+	margin-bottom: 6px;
+}
+
+p {
+	float: left;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: Comic Sans MS;
+	font-weight: bold;
+	font-size: 12px;
+	color: #000000;
+}
+
+/* Desktop size */
+@media (min-width: 992px) and (max-width: 1400px){
+	.col-lg-4 {
+		float: left;
+		width: 30%;
+	}
+}
+
+/* Tablet size */
+@media (min-width: 768px) and (max-width: 991px){
+	.col-md-6 {
+		float: left;
+		width: 45%;
+	}
+}
+
+/* Mobile size */
+@media (max-width: 767px){
+	.col-sm-12 {
+		float: left;
+		width: 95%;
+	}
+}
+
+
